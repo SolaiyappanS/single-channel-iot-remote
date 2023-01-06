@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Channel Remote</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.js"
+      integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
+    <script type="module" src="link.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <h1>Single Channel IoT Remote</h1>
+
+    <button id="switchBtn">Light Button</button>
+
+    <p>
+      The original state from firebase is <span id="orgLightState"> OFF </span>
+    </p>
+  </body>
+</html>
