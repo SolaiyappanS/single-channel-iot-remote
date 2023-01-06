@@ -1,7 +1,11 @@
+/* this is stylesheet file */
+
+/* below set of code will style the h1 tag */
 h1 {
-  color: red;
+  color: blue;
 }
 
+/* below set of code will style the button tag */
 button {
   padding: 10px 20px;
   cursor: pointer;
